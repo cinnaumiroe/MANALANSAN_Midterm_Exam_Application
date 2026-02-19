@@ -16,6 +16,6 @@ class ProductController extends Controller
             'Sumosam'
         ];
 
-        return view('resto', ['restos' => $restos]);
+        return view('restaurant', ['restos' => $restos]);
     }
 }
